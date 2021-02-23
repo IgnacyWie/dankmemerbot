@@ -5,23 +5,15 @@ import threading
 from random import random, randint
 import os
 
-# Environmental Variables
-GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
-CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-chrome_options = webdriver.ChromeOptions()
-chrome_option.add_argument('--disable-gpu')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.binary_location = GOOGLE_CHROME_PATH
-
 # User Variables
-UserEmail = os.environ.get('EMAIL')
-UserPassword = os.environ.get('DISCORDPASSWORD')
+UserEmail = os.environ.get('EMAIL') #insert your password in this variable
+UserPassword = os.environ.get('DISCORDPASSWORD') #insert your password in this variable
 Serverlink = "https://discord.com/channels/809044507194294312/809044716544458782"
 Textxpath = "/html/body/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/main/form/div/div/div/div/div/div[3]/div[2]"
 fricklist = ["f", "r", "i", "c", "k"]
 
 # Opening discord link
-driver = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+driver = webdriver.Chrome() #insert your path into those brackets
 driver.get(Serverlink)
 
 # Logging in
