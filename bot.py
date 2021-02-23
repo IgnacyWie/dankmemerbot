@@ -8,7 +8,7 @@ import os
 # User Variables
 UserEmail = os.environ.get('EMAIL') #insert your password in this variable
 UserPassword = os.environ.get('DISCORDPASSWORD') #insert your password in this variable
-Serverlink = ""
+Serverlink = "Insert your serverlink here"
 Textxpath = "/html/body/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/main/form/div/div/div/div/div/div[3]/div[2]"
 fricklist = ["f", "r", "i", "c", "k"]
 
