@@ -7,6 +7,6 @@ This is bot which uses python selenium to log into discord open server and every
 ## How to run
 
 1. Ensure that selenium webdriver is installed.
-2. Write path into your selenium webdriver.
+2. Write path to your selenium webdriver.
 3. Write your email and password into code, instead of my environmental variables.
 4. Run the code.
