@@ -12,3 +12,5 @@ This is bot which uses python selenium to log into discord open server and every
 4. Run the code.
 
 If you are on Windows it may be easier to go to windows branch of the repo
+
+<a href="https://www.buymeacoffee.com/ignacywie" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 27,6497696px !important;width: 100px !important;" ></a>
